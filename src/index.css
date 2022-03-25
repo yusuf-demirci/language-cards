@@ -5,7 +5,6 @@
 }
 
 body {
-    height: 100vh;
     background: linear-gradient(to right, #f4d161, #ebdcae);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
