@@ -1,0 +1,34 @@
+.cards {
+    position: relative;
+    width: 100%;
+    background-color: #f48b29;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards::before {
+    content: "";
+    position: absolute;
+    top: 42%;
+    left: -10rem;
+    width: 170%;
+    height: 5rem;
+    background-color: #52b9db;
+    transform: rotate(40deg);
+}
+
+.cards-title {
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    justify-content: space-evenly;
+}
